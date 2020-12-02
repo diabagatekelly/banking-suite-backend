@@ -1,0 +1,12 @@
+.sub-container {
+    height: 50vh;
+    border: 1px solid black;
+}
+
+#intro {
+    height: 50vh
+}
+
+h6, p {
+    padding-top: 25%
+}

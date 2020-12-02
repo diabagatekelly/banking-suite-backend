@@ -1,0 +1,22 @@
+.nav, .tab-content {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: blue;
+    color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    .nav, .tab-content {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

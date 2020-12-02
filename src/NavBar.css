@@ -1,0 +1,60 @@
+
+
+.selected {
+    color: blue
+}
+
+nav.navbar {
+  padding: 0
+}
+
+  
+  .nav-item {
+    display: inline;
+    /* margin-left: 2rem; */
+    color: white;
+  }
+  
+  .nav-item:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+
+  
+  .nav-item a.active {
+    color: blue
+  }
+  
+  .navbar-collapse.show {
+    background-color: black;
+    color: white;
+    height: 95vh;
+    padding: 1em;
+  }
+
+  .navbar-brand {
+    margin: 5px 30px 5px;
+  }
+
+  .navbar-toggler {
+    margin: 5px 30px 5px;
+  }
+
+  @media only screen and (min-width: 769px) {
+    .nav-item {
+      margin-left: 2rem;
+    }
+
+    nav.navbar {
+      padding: 30px
+    }
+
+    .navbar-brand {
+      margin: 0;
+    }
+  
+    .navbar-toggler {
+      margin: auto;
+    }
+  }
